@@ -1,11 +1,11 @@
 <?php
 // Inclure les fichiers nécessaires
 require 'config/database.php'; // Configurez votre connexion PDO ici
-require 'app/models/Task.php';
+require 'app/models/TaskModel.php';
 require 'app/controllers/TaskController.php';
 
 // Créer une instance de la base de données
-$model = new Task($pdo);
+$model = new TaskModel($pdo);
 $controller = new TaskController($model);
 
 // Déterminer l'action à effectuer en fonction de l'URL

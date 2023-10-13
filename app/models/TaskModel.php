@@ -1,5 +1,5 @@
 <?php
-class Task {
+class TaskModel {
     private $pdo; // Déclaration d'une propriété privée pour stocker l'instance PDO.
 
     // Constructeur de la classe, reçoit une instance PDO pour la connexion à la base de données.
