@@ -13,7 +13,7 @@
         <input type="text" name="task_name" id="task_name" required><br>
 
         <label for="task_description">Description:</label>
-        <textarea name="task_description" id="task_description" required></textarea><br>
+        <textarea name="task_description" id="task_description"></textarea><br>
 
         <button type="submit">Ajouter</button>
     </form>

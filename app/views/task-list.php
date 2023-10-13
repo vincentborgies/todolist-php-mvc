@@ -14,7 +14,6 @@
             <li>
                 <?= htmlspecialchars($task['task_name']); ?> -
                 <?= htmlspecialchars($task['task_description']); ?>
-                <a href="index.php?action=create">Ajouter une tâche</a>
                 <a href="index.php?action=edit&id=<?= $task['id']; ?>">Modifier</a>
                 <a href="index.php?action=delete&id=<?= $task['id']; ?>">Supprimer</a>
             </li>

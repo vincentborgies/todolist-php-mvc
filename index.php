@@ -1,4 +1,5 @@
 <?php
+
 // Inclure les fichiers nécessaires
 require 'config/database.php'; // Configurez votre connexion PDO ici
 require 'app/models/TaskModel.php';
@@ -16,8 +17,8 @@ switch ($action) {
     case 'index':
         $controller->index();
         break;
-    case 'add':
-        $controller->addTask();
+    case 'create':
+        $controller->create();
         break;
     case 'delete':
         if (isset($_GET['id'])) {
